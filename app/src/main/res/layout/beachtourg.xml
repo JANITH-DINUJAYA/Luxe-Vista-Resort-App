@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_gravity="top"
+            android:src="@drawable/tou1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beach Tours"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="26sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="Experience the beauty of the coastline with our guided beach tours. Visit hidden lagoons, seashell-covered shores, and local fishing villages. Capture perfect sunset views and feel the calm breeze of the ocean."
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Photo Gallery"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="22sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/tou" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/ttttt1" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:src="@drawable/tou3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/tou2" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="308dp"
+            android:src="@drawable/ttttt"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

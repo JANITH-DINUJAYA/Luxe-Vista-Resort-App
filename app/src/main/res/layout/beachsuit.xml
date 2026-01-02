@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
+        android:layout_gravity="top"
+
+        android:src="@drawable/ocea2"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Ocean View Suit"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="Price Range : 7500 Rs (per day)"
+        android:textStyle="bold"
+        android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="Spacious suite with stunning ocean views, modern comforts, and a private balcony for a relaxing stay."
+            android:textSize="12sp"/>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Photo Gallery"
+        android:textStyle="bold"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="22sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/ocea1" />
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="30dp"
+
+        android:src="@drawable/ocea3" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:src="@drawable/ocea6"/>
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Appointment"
+            android:textSize="24sp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/orange"/>
+</LinearLayout>
+
+
+</ScrollView>

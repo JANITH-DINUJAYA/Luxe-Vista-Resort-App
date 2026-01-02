@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="246dp"
+            android:layout_gravity="top"
+            android:src="@drawable/ws1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Water Sports"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="26sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Dive into excitement with our full range of water adventures. From high-speed jet skiing and parasailing to relaxing kayaking and guided snorkeling tours, we have experiences for every thrill-seeker and nature lover."
+
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Photo Gallery"
+            android:textStyle="bold"
+            android:layout_marginTop="28dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="22sp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/ws" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/ws2" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:src="@drawable/ws3"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginTop="10dp"
+
+            android:src="@drawable/ws5" />
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:src="@drawable/ws4"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+    <item android:id="@+id/dash"
+        android:icon="@drawable/baseline_dashboard_24"
+
+        android:title="Dashboard"/>
+
+    <item android:id="@+id/my"
+        android:icon="@drawable/baseline_book_24"
+        android:title="My Bookings"/>
+
+    <item android:id="@+id/ser"
+        android:title=" Service Reservation"
+        android:icon="@drawable/baseline_menu_book_24"/>
+
+
+    <item android:id="@+id/hi"
+        android:title=" Highlights"
+        android:icon="@drawable/baseline_highlight_24"/>
+
+
+    <item android:id="@+id/se"
+        android:title="Settings"
+
+        android:icon="@drawable/baseline_display_settings_24"/>
+
+</menu>

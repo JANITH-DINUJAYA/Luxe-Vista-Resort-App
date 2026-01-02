@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/log"
+    tools:context=".LoginActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="24dp">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="login"
+                android:id="@+id/ll"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/orange"
+                />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:background="@drawable/login"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:hint="email"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pass"
+        android:background="@drawable/login"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:hint="password"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"/>
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/logbtn"
+    android:text="Login"
+    android:textSize="18sp"
+    android:clickable="true"
+    android:layout_marginTop="30dp"
+    android:backgroundTint="@color/orange"
+    app:cornerRadius ="20dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="14dp"
+    android:text="Not yet Registered?Sign Up"
+    android:textSize="14sp"
+    android:textAlignment="center"
+    android:id="@+id/sign"
+    android:clickable="true"
+    android:focusable="true"
+    android:textColor="@color/orange"
+    android:layout_marginBottom="20dp"
+    />
+
+    <TextView
+        android:id="@+id/guest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:padding="14dp"
+        android:text="Login As Guest"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:textColor="@color/orange"
+        android:textSize="14sp" />
+</LinearLayout>
